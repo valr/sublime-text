@@ -60,7 +60,7 @@ done
 for SYNTAX in "Gettext.tmLanguage" \
   "Jinja.sublime-syntax" \
   "Just.sublime-syntax" \
-  "Meson.tmLanguage"; do
+  "Meson.sublime-syntax"; do
   rm -f "$TARGET/Packages/User/$SYNTAX"
   ln -s "$PWD/syntax/$SYNTAX" "$TARGET/Packages/User/$SYNTAX"
 done
