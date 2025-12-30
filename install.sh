@@ -57,7 +57,7 @@ for SETTING in "CSS.sublime-settings" \
 done
 
 # language syntaxes
-for SYNTAX in "Gettext.tmLanguage" \
+for SYNTAX in "Gettext.sublime-syntax" \
   "Jinja.sublime-syntax" \
   "Just.sublime-syntax" \
   "Meson.sublime-syntax"; do

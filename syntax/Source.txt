@@ -1,6 +1,6 @@
 Source of syntax files:
 
-Gettext https://github.com/textmate/gettext.tmbundle/blob/master/Syntaxes/Gettext.tmLanguage
+Gettext https://github.com/idleberg/sublime-gettext/blob/master/Syntaxes/Gettext.sublime-syntax
 Jinja   https://github.com/Sublime-Instincts/BetterJinja/blob/master/resources/syntax/Jinja.sublime-syntax
 Just    https://github.com/nk9/just_sublime/blob/main/Syntax/Just.sublime-syntax
 Meson   https://github.com/Monochrome-Sauce/sublime-meson/blob/master/meson.sublime-syntax
