@@ -4,7 +4,9 @@
         // disabled as per BracketHighlighter documentation
         "bracket_contents_options": "none",
         "brackets_options": "none",
-        "tags_options": "none"
+        "tags_options": "none",
+        // change color of whitespaces
+        "invisibles": "var(comment)",
     },
     "rules": []
 }
