@@ -1,0 +1,44 @@
+[
+    // TO REVIEW!!!
+    {
+        "caption": "Run Command",
+        "command": "run_command",
+        "args": {
+            "cwd": "$project_path"
+        }
+    },
+    {
+        "caption": "Git Status",
+        "command": "run_command",
+        "args": {
+            "command": "git status -sb",
+            "cwd": "$project_path",
+            "timeout": 5,
+            "source": "none",
+            "target": "window"
+        }
+    },
+    {
+        "caption": "JSON Compress (Minify)",
+        "command": "run_command",
+        "args": {
+            "command": "jq -c ."
+        }
+    },
+    {
+        "caption": "JSON Filter",
+        "command": "run_command",
+        "args": {
+            "command": "jq --indent 4 ${arg_filter|.}",
+            "target": "window"
+        }
+    },
+    {
+        "caption": "JSON Validate",
+        "command": "run_command",
+        "args": {
+            "command": "jq type",
+            "target": "none"
+        }
+    },
+]
