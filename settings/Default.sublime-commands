@@ -1,44 +1,41 @@
 [
-    // TO REVIEW!!!
     {
         "caption": "Run Command",
-        "command": "run_command",
-        "args": {
-            "cwd": "$project_path"
-        }
+        "command": "run_command"
     },
     {
-        "caption": "Git Status",
-        "command": "run_command",
-        "args": {
-            "command": "git status -sb",
-            "cwd": "$project_path",
-            "timeout": 5,
-            "source": "none",
-            "target": "window"
-        }
-    },
-    {
-        "caption": "JSON Compress (Minify)",
+        "caption": "Run Command: Minify JSON",
         "command": "run_command",
         "args": {
             "command": "jq -c ."
         }
     },
     {
-        "caption": "JSON Filter",
+        "caption": "Run Command: Pretty Print JSON",
         "command": "run_command",
         "args": {
-            "command": "jq --indent 4 ${arg_filter|.}",
-            "target": "window"
+            "command": "prettier --stdin-filepath input.json --tab-width ${arg_indent|4}"
         }
     },
     {
-        "caption": "JSON Validate",
+        "caption": "Run Command: Pretty Print JSONC",
         "command": "run_command",
         "args": {
-            "command": "jq type",
-            "target": "none"
+            "command": "prettier --stdin-filepath input.jsonc --tab-width ${arg_indent|4}"
         }
     },
+    {
+        "caption": "Run Command: Minify XML",
+        "command": "run_command",
+        "args": {
+            "command": "xmllint --noblanks -"
+        }
+    },
+    {
+        "caption": "Run Command: Pretty Print XML",
+        "command": "run_command",
+        "args": {
+            "command": "xmllint --format -"
+        }
+    }
 ]
