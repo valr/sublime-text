@@ -35,6 +35,7 @@ for SETTING in "CSS.sublime-settings" \
   "Default.sublime-commands" \
   "Dracula Neue Pro (Alucard).sublime-color-scheme" \
   "easy_diff.sublime-settings" \
+  "GitHub Adaptive.sublime-theme" \
   "HTML.sublime-settings" \
   "LSP-gopls.sublime-settings" \
   "LSP-jdtls.sublime-settings" \

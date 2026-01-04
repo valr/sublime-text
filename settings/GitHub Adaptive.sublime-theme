@@ -1,0 +1,9 @@
+{
+    "variables": {
+        "sidebarLabelPadding": [
+            16,
+            5
+        ],
+    },
+    "rules": []
+}
