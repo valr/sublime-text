@@ -2,6 +2,7 @@
 pythonVersion = "3.8"
 
 exclude = ["**/__pycache__"]
+extraPaths = ["/opt/sublime_text/Lib/python38"]
 
 # linting handled by ruff
 reportUnusedImport = "none"
