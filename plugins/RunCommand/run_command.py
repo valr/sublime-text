@@ -124,7 +124,14 @@ class RunCommandCommand(sublime_plugin.TextCommand):
             regions = [None]
 
         for region in regions:
-            self.run_command(cmd_args.command, cmd_args.cwd, cmd_args.timeout, edit, region, cmd_args.target)
+            self.run_command(
+                cmd_args.command,
+                cmd_args.cwd,
+                cmd_args.timeout,
+                edit,
+                region,
+                cmd_args.target,
+            )
 
     def run_command(
         self,
